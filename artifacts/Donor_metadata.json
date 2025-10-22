@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "CallFailed",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "callETH",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"task2/Donor.sol": "Donor"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"task2/Donor.sol": {
+			"keccak256": "0x2e24596d94b69facb9e19093cafca3c9140411f8f0d1b09ba8b850897624b91f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3b5190aece7d069b9ae3107ec52a89bfe57a082e442d8b54070cb3d0e4b0a5e5",
+				"dweb:/ipfs/QmNxcn6LEhdGU1hbEvSJE6RMibPUxAuiR9RBZJg3SPPaHw"
+			]
+		}
+	},
+	"version": 1
+}
